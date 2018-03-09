@@ -12,8 +12,8 @@ router.get('/movies', function(req, res, next) {
     result.data.push(
       {
         id: item.id,
-        // title: item.title, 
-        // year: item.year, 
+        title: item.title, 
+        year: item.year, 
         poster: item.poster
       }
     )
